@@ -15,7 +15,7 @@ body{
 .header-container {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('./imagens/paisagem4.jpg');
+    background-image: url('../imagens/paisagem4.jpg');
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -165,7 +165,7 @@ picture#foto {
     position: absolute;
     left: 90px;
     top: 100px;
-    background: url('imagens/paisagem-azul.jpg');
+    background: url('../imagens/paisagem.png');
     width: 210px;
     height: 230px;
     border-radius: 100%;
