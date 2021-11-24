@@ -1,0 +1,209 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body{
+    margin: -20px auto 0px auto;
+    padding: 100;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    background-color: black;
+}
+/* HEADER */
+ .header-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./imagens/paisagem4.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+    height: 90vh;
+    width: 100%; 
+}
+
+header#fale-conosco {
+    position: absolute;
+    left: 580px;
+   top: 28px;
+   margin: auto 0px 0px auto;
+} 
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+     color: rgb(31, 123, 235);
+    }
+
+    h2{
+      color: #D3D3D3;
+        text-transform: uppercase;
+        letter-spacing: 2px; 
+    }
+
+.social-media {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #DCDCDC;
+    padding: 1rem 4rem;
+    border: 1.2px solid #FFFFFF;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-in-out;
+}
+
+a:hover{
+    color: #FF7F50;
+    text-decoration: underline;
+}
+
+/* Menu HAMBURGUER */
+
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999;
+    transition: 400ms ease-in-out 0s;
+}
+
+.checkbox .trace {
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    border-radius: 4px;
+    transition: 0.5s ease-in-out;
+}
+
+.checkbox .trace:nth-child(1){
+    top: 26px;
+    transition: rotate(0);
+}
+
+.checkbox .trace:nth-child(2){
+    top: 46px;
+    transition: rotate(0);
+}
+
+.checkbox .trace:nth-child(3){
+    top: 66px;
+    transition: rotate(0);
+}
+
+#toogle {
+    display: none;
+}
+/* MENU */
+
+.menu {
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    background-color: transparent;
+    height: 4px;
+    width: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px white;
+    z-index: -1;
+    transition: 400ms ease-in-out 0;
+}
+
+.menu-items {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms ease-in-out 0;
+}
+
+.menu-items ul {
+    list-style-type: none;
+}
+
+.menu-items ul li a {
+    margin-top: 10px 0;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.menu-items ul li a:hover {
+  color: #FF7F50;
+  text-decoration: underline;
+}
+
+/* Animação do MENU */
+
+#toogle:checked + .checkbox .trace:nth-child(1) {
+    transform: rotate(45deg);
+    top: 47px;
+}
+
+#toogle:checked + .checkbox .trace:nth-child(2) {
+transform: translate(-100px);
+width: 30px;
+visibility: hidden;
+opacity: 0;
+}
+
+#toogle:checked + .checkbox .trace:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 48px;
+}
+
+#toogle:checked + .checkbox {
+    background-color: rgb(9, 9, 3);
+}
+
+#toogle:checked ~ .menu {
+    box-shadow: 0px 0px 0px 100vmax rgb(3, 3, 3);
+    z-index: 1;
+}
+
+#toogle:checked ~ .menu-items {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* FOOTER */
+.footer {
+    margin: auto;
+    background-color: #000000;
+    text-align: center;
+    justify-content: center;
+    color: #D3D3D3;
+    font-size: 10pt;
+    text-indent: -30px;
+}
+
+@media screen and (min-width: 768px) {
+    
+}
