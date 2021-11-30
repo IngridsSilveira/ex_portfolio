@@ -56,14 +56,16 @@ h1{
 .social-media a{
     text-decoration: none;
     color: #DCDCDC;
-    padding: 1rem 4rem;
-    border: 1.2px solid #FFFFFF;
-    min-width: 4rem;
+    padding: 1rem 3rem;
+    border: 1.9px solid #FFFFFF;
+    min-width: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: .3s ease-in-out;
     font-family: 'Outfit', sans-serif;
+    border-radius: 15px;
+    margin:2px;
 }
 
 a:hover{
