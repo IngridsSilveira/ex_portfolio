@@ -1,4 +1,4 @@
 # **Meu Portfólio**
  Estou desenvolvendo o meu portfólio para apresentar todos os meus conhecimentos e projetos.
 
- <img src="index.png" alt="imagem do index"></img>
+* <a href="https://ingridssilveira.github.io/portfolio/">Este é o link do site. </a>
