@@ -38,7 +38,7 @@ h1{
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 3px;
-     color: #FF8000;
+     color: #f58210;
     }
 
     h2{
@@ -57,7 +57,7 @@ h1{
     text-decoration: none;
     color: #DCDCDC;
     padding: 1rem 3rem;
-    border: 1.9px solid #FFFFFF;
+    border: 1.9px solid rgba(144, 171, 172, 0.687);
     min-width: 2rem;
     display: flex;
     align-items: center;
