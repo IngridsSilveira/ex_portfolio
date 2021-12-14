@@ -6,35 +6,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    margin: -20px auto 0px auto;
-    padding: 100;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     background-color: black;
+    min-width: 300px;
+    max-width: 1150px;
 }
-
 /* HEADER */
 
 .header-container {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../imagens/paisagem4.jpg');
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 0 95px;
-    position: relative;
     height: 90vh;
-    width: 100%; 
-}
-header#fale-conosco {
-    position: absolute;
-    left: 580px;
-    top: 28px;
-    margin: auto 0px 0px auto;
+    width: 111%; 
 } 
 /* Menu HAMBURGUER */
 
@@ -49,7 +39,7 @@ header#fale-conosco {
     width: 100px;
     position: absolute;
     right: 0;
-    top: 1px;
+    top: -8px;
     display: flex;
     justify-content: center;
     cursor: pointer;
@@ -92,8 +82,6 @@ header#fale-conosco {
     top: 28px;
     right: 30px;
     background-color: transparent;
-    height: 4px;
-    width: 10px;
     border-radius: 50%;
     box-shadow: 0px 0px 0px 0px white;
     z-index: -1;
@@ -171,8 +159,8 @@ picture#foto {
     left: 90px;
     top: 100px;
     background: url('../imagens/pikachu_color.png');
-    width: 210px;
-    height: 230px;
+    width: 16.9%;
+    height: 42%;
     border-radius: 100%;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.884);
     background-position: 50% 50%;
@@ -190,43 +178,57 @@ span {
     opacity: 0;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     font-size: 1em;
-    line-height: 2650%;
+    line-height: 2750%;
     padding: 76px;
 }
 span:hover {
     opacity: 1;
 }
 /* Texto */
+div#texto2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 280px;
+}
 p#texto {
-    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     letter-spacing: 1px; 
     color: rgb(255, 255, 255);
-    margin: 10px 5px 80px 230px;
-    padding: 4px;
-    display: block;
+    text-align: justify;
+    margin: auto;
 }
 h1 {
     font-family: 'Rubik', sans-serif;
-    text-indent: -316px;
     font-size: 1.8em;
     color:  #FF8000;
-    margin-top: -38px;
-    padding: 0px;
     text-transform: uppercase;
+  
+}
+div#titulo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    margin-top: 10px;
 }
 /* FOOTER */
 .footer {
-        margin: auto;
         background-color: #000000;
         text-align: center;
-        justify-content: center;
+        margin-bottom: 10px;
 }
 p#rodape {
     color: #D3D3D3;
     font-size: 0.8em;
-    margin: 0px 0px 0px 0px;
-    text-indent: -30px;
     font-family: 'Poppins', sans-serif;
+    margin-left: 80px;
 }
+picture#contato {
+    width: 50%;
+    margin: auto;
+    margin-left: 80px;
+ } 

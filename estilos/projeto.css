@@ -6,35 +6,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    margin: -20px auto 0px auto;
-    padding: 20px;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     background-color: black;
+    min-width: 300px;
+    max-width: 1150px;
 }
 
 /* HEADER */
 .header-container {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../imagens/paisagem4.jpg');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    box-sizing: border-box;
-    padding: 0px 112px;
+    background-image: url('../imagens/paisagem-azul.jpg');
     position: relative;
     height: 90vh;
-    width: 100%; 
+    width: 80%; 
 }
-header#fale-conosco {
-    position: absolute;
-    left: 445px;
-     top: 6px;
-   margin: auto 0px auto auto;
-} 
 /* Imagens do Projeto */
 
 
@@ -50,10 +42,9 @@ header#fale-conosco {
     height: 100px;
     width: 90px;
     position: absolute;
-    right: -128px;
-    top: -20px;
+    right: -245px;
+    top: -10px;
     display: flex;
-    justify-content: center;
     cursor: pointer;
     z-index: 9999;
     transition: 400ms ease-in-out 0s;
@@ -173,9 +164,7 @@ opacity: 0;
     margin: auto;
     background-color: #000000;
     text-align: center;
-    justify-content: center;
     color: #D3D3D3;
     font-size: 0.8em;
-    text-indent: -30px;
     font-family: 'Poppins', sans-serif;
 }

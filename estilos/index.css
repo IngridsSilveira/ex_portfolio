@@ -4,53 +4,53 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
 body{
-    margin: -20px auto 0px auto;
-    padding: 100;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     background-color: black;
+    min-width: 300px;
+    max-width: 1150px;
 }
 /* HEADER */
  .header-container {
+    background-image: url('../imagens/paisagem4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../imagens/paisagem4.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     box-sizing: border-box;
-    padding: 0 112px;
-    position: relative;
     height: 90vh;
     width: 100%; 
 }
-
-header#fale-conosco {
-    position: absolute;
-    left: 580px;
-   top: 28px;
-   margin: auto 0px 0px auto;
-} 
 h1{
     font-family: 'Rubik', sans-serif;
     font-size: 3.3em;
     text-transform: uppercase;
     letter-spacing: 2px;
      color: #f58210;
+     margin-left: 35px;
+     margin-bottom: 20px;
     }
 
     h2{
         font-family: 'Rubik', sans-serif;
-      color: #D3D3D3;
+        color: #D3D3D3;
         text-transform: uppercase;
         letter-spacing: 2px; 
+        margin-left: 50px;
+        margin-bottom: 10px;
     }
 
 .social-media {
     margin-top: 1rem;
     display: flex;
+    margin-left: 50px;
 }
 
 .social-media a{
@@ -58,13 +58,12 @@ h1{
     color: #DCDCDC;
     padding: 1rem 3rem;
     border: 1.9px solid rgba(144, 171, 172, 0.687);
-    min-width: 2rem;
+    box-shadow: 0px 0px 2px;
     display: flex;
     align-items: center;
-    justify-content: center;
     transition: .3s ease-in-out;
     font-family: 'Outfit', sans-serif;
-    border-radius: 15px;
+    border-radius: 20px;
     margin:2px;
 }
 
@@ -86,7 +85,7 @@ a:hover{
     width: 100px;
     position: absolute;
     right: 0;
-    top: 0;
+    top: -15px;
     display: flex;
     justify-content: center;
     cursor: pointer;
@@ -207,13 +206,14 @@ opacity: 0;
     margin: auto;
     background-color: #000000;
     text-align: center;
-    justify-content: center;
     color: #D3D3D3;
     font-size: 0.8em;
-    text-indent: -30px;
     font-family: 'Poppins', sans-serif;
 }
-
-@media screen and (min-width: 768px) {
-    
+p {
+    padding: 0px;
 }
+picture#contato {
+   width: 50%;
+   margin: auto;
+} 
