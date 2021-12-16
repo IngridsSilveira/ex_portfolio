@@ -19,13 +19,12 @@ body{
     font-size: 16px;
 }
 /* HEADER */
-
 .header-container {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../imagens/paisagem4.jpg');
-    height: 90vh;
-    width: 111%; 
+    height: 85vh;
+    width: 100%;
 } 
 /* Menu HAMBURGUER */
 
@@ -157,34 +156,17 @@ opacity: 0;
 /* Imagens */
 picture#foto {
     position: absolute;
-    left: 120px;
-    top: 100px;
-    background: url('../imagens/pikachu_color.png');
-    width: 16.9%;
-    height: 40%;
-    border-radius: 50px;
-    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.884);
-    background-position: 50% 50%;
-    background-size: 210px 210px;
+    left: 50px;
+    top: 20px;
     -webkit-transition: all .2s ease-in-out;
     cursor: pointer;
     opacity: 1000;
+    
 }
 picture#foto:hover {
     -webkit-transform: scale(1.5);
     opacity: .20;
 } 
-span {
-    color: white;
-    opacity: 0;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    font-size: 1em;
-    line-height: 2750%;
-    padding: 76px;
-}
-span:hover {
-    opacity: 1;
-}
 /* Texto */
 p#texto {
     font-family: Arial, Helvetica, sans-serif;
@@ -201,7 +183,7 @@ h1 {
     font-size: 1.8em;
     color:  #FF8000;
     text-transform: uppercase;
-  
+    text-shadow: 2px 2px 8px rgba(255, 128, 0, 0.34);
 }
 div#titulo2 {
     display: flex;
@@ -255,9 +237,13 @@ picture#contato {
         letter-spacing: 1px;
         font-size: 13px;
         line-height: 15px;
-        margin-top: -50px;
-        margin-left: -80px;
+        margin-top: -120px;
+        margin-left: -160px;
     }
+.header-container {
+    background-size: 200% 100%;
+    background-position: center;
+}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
