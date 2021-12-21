@@ -32,22 +32,24 @@ body{
 }
 h1{
     font-family: 'Rubik', sans-serif;
-    font-size: 3.3em;
+    font-size: 3.7em;
     text-transform: uppercase;
     letter-spacing: 2px;
-     color: #FFFFFF;
+     color: rgb(236, 236, 236);
      margin-left: 35px;
      margin-bottom: 20px;
+     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.83);
     }
 
     h2{
         font-family: 'Rubik', sans-serif;
-        color: rgba(255, 255, 255, 0.904);
+        color: rgba(226, 225, 225, 0.707);
         text-transform: uppercase;
         letter-spacing: 2px; 
         margin-left: 50px;
         margin-bottom: 10px;
-        text-shadow: 1px 1px 1px rgba(233, 233, 233, 0.83);
+        text-shadow: 1px 1px 1px rgba(14, 14, 14, 0.83);
+        font-size: 1.6em;
     }
 
 .social-media {
@@ -60,7 +62,7 @@ h1{
     text-decoration: none;
     color: whitesmoke;
     padding: 1rem 3rem;
-    border: 1.9px solid rgba(213, 218, 218, 0.687);
+    border: 2px solid rgba(61, 58, 58, 0.864);
     display: flex;
     align-items: center;
     transition: .3s ease-in-out;

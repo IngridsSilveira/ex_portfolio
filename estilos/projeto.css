@@ -11,6 +11,12 @@
     padding: 0px;
 }
 body{
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    background-image: url('../imagens/espaco.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     background-color: black;
@@ -20,9 +26,6 @@ body{
 
 /* HEADER */
 .header-container {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../imagens/paisagem-azul.jpg');
     position: relative;
     height: 90vh;
     width: 80%; 
@@ -122,8 +125,7 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 .menu-items ul li a:hover {
-  color: #007fff;
-  text-decoration: underline;
+  color: #3C91E6;
 }
 
 /* Animação do MENU */
@@ -162,7 +164,7 @@ opacity: 0;
 /* FOOTER */
 .footer {
     margin: auto;
-    background-color: #000000;
+    background-color: transparent;
     text-align: center;
     color: #D3D3D3;
     font-size: 0.8em;
