@@ -14,7 +14,7 @@ body{
     background-position: center center;
     background-attachment: fixed;
     position: relative;
-    background-image: url('../imagens/espaco.jpg');
+    background-image: url('../imagens/espaco1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
@@ -125,7 +125,8 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 .menu-items ul li a:hover {
-  color: #3C91E6;
+    color: #3FA69B;
+    text-decoration: underline;
 }
 
 /* Animação do MENU */

@@ -12,7 +12,7 @@ body{
     background-position: center center;
     background-attachment: fixed;
     position: relative;
-    background-image: url('../imagens/espaco.jpg');
+    background-image: url('../imagens/espaco1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
@@ -32,13 +32,14 @@ body{
 }
 h1{
     font-family: 'Rubik', sans-serif;
-    font-size: 3.7em;
+    font-size: 4em;
     text-transform: uppercase;
     letter-spacing: 2px;
      color: rgb(236, 236, 236);
      margin-left: 35px;
      margin-bottom: 20px;
      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.83);
+     white-space: nowrap;
     }
 
     h2{
@@ -49,7 +50,7 @@ h1{
         margin-left: 50px;
         margin-bottom: 10px;
         text-shadow: 1px 1px 1px rgba(14, 14, 14, 0.83);
-        font-size: 1.6em;
+        font-size: 1.9em;
     }
 
 .social-media {
@@ -62,7 +63,7 @@ h1{
     text-decoration: none;
     color: whitesmoke;
     padding: 1rem 3rem;
-    border: 2px solid rgba(61, 58, 58, 0.864);
+    border: 1.5px solid rgba(61, 58, 58, 0.864);
     display: flex;
     align-items: center;
     transition: .3s ease-in-out;
@@ -168,7 +169,8 @@ a:hover{
     font-family: 'Rubik', sans-serif;
 }
 .menu-items ul li a:hover {
-  color: #3C91E6;
+    color: #3FA69B;
+    text-decoration: underline;
 }
 
 /* Animação do MENU */
@@ -220,3 +222,13 @@ picture#contato {
    width: 50%;
    margin: auto;
 } 
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+}

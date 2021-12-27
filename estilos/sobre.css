@@ -14,7 +14,7 @@ body{
     background-position: center center;
     background-attachment: fixed;
     position: relative;
-    background-image: url('../imagens/espaco.jpg');
+    background-image: url('../imagens/espaco1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
@@ -37,15 +37,15 @@ body{
     align-items: center;
 }
 
+
 .checkbox {
-    margin-left: 0px;
-    padding: 0px;
     height: 100px;
     width: 100px;
     position: absolute;
-    left: 1180px;
-    top: -10px;
-    display: block;
+    left: 92vw;
+    top: -15px;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     z-index: 9999;
     transition: 400ms ease-in-out 0s;
@@ -120,8 +120,8 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 .menu-items ul li a:hover {
-  color: #3C91E6
-
+  color: #3FA69B;
+  text-decoration: underline;
 }
 
 /* Animação do MENU */
@@ -172,9 +172,9 @@ picture#foto:hover {
 /* Texto */
 p#texto {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 1.5em;
     letter-spacing: 1px; 
-    color: rgb(255, 255, 255);
+    color: ghostwhite;
     text-align: justify;
     position: absolute;
     top: 180px;
@@ -214,33 +214,13 @@ picture#contato {
     margin: auto;
     margin-left: 80px;
  } 
-
- /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {
-    p#texto {
-        font-size: 2em;
-    }
-}
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-    p#texto{
-        font-size: 1em;
-    }
-}
-
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
-    p#texto{
-        font-size: 1em;
-    }
-}
+ 
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
     p#texto{
         letter-spacing: 1px;
-        font-size: 13px;
+        font-size: 1em;
         line-height: 15px;
         margin-top: -120px;
         margin-left: -160px;
@@ -249,11 +229,4 @@ picture#contato {
     background-size: 200% 100%;
     background-position: center;
 }
-}
-
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
-    p#texto{
-        font-size: 0.8em;
-    }
 }
