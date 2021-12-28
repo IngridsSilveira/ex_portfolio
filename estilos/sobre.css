@@ -21,13 +21,16 @@ body{
     color: #FFFFFF;
     background-color: black;
     min-width: 300px;
-    max-width: 1150px;
+    max-width: 100%;
     font-size: 16px;
 }
 /* HEADER */
 .header-container {
-    height: 85vh;
-    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    height: 85vh; 
 } 
 /* Menu HAMBURGUER */
 
@@ -42,7 +45,7 @@ body{
     height: 100px;
     width: 100px;
     position: absolute;
-    left: 92vw;
+    right: 0;
     top: -15px;
     display: flex;
     justify-content: center;
@@ -219,14 +222,7 @@ picture#contato {
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 300px) and (max-width: 1200px) {
     p#texto{
-        letter-spacing: 1px;
         font-size: 1em;
-        line-height: 15px;
-        margin-top: -120px;
-        margin-left: -160px;
+        margin-top: -90px;
+        margin-left: -350px;
     }
-.header-container {
-    background-size: 200% 100%;
-    background-position: center;
-}
-}
