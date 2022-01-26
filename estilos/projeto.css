@@ -164,6 +164,32 @@ opacity: 0;
     opacity: 1;
 }
 
+/* TEXTOS */
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+     color: rgb(236, 236, 236);
+     margin-left: 150px;
+     margin-bottom: -30px;
+     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.83);
+     white-space: nowrap;
+}
+.links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 500px;
+}
+.linkss {
+   
+}
+.linkss2 {
+
+}
+
 /* FOOTER */
 .footer {
     margin: auto;

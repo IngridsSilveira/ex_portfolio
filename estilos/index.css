@@ -226,7 +226,7 @@ picture#contato {
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 300px) and (max-width: 767px) {
     h1 {
-        font-size: 3em;
+        font-size: 2.8em;
     }
     h2 {
         font-size: 1.2em;
