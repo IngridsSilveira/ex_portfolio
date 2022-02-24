@@ -9,6 +9,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body{
     background-position: center center;
@@ -172,8 +173,8 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
      color: rgb(236, 236, 236);
-     margin-left: 150px;
-     margin-bottom: -30px;
+     margin-left: 110px;
+     margin-top: -140px;
      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.83);
      white-space: nowrap;
 }
@@ -181,16 +182,18 @@ h1 {
     display: flex;
 }
 .links {
-    list-style: none;
+    list-style: circle;
     color: white;
     text-decoration: none;
+    padding: 10px;
+    font-size: 19px;
     font-family: 'Poppins', sans-serif;
-    padding: 6px;
 }
-.lista {
-    padding: 5px;
+.lista1 {
+    background-color: #3FA69B;
+    width: 220px;
+    height: 110px;
 }
-
 /* FOOTER */
 .footer {
     margin: auto;
